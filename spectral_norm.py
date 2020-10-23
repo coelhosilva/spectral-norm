@@ -32,5 +32,5 @@ if __name__ == '__main__':
         N = 100
     start_time = time.time()
     result = calculate(N)
-    print("{0:.40f}".format(result))
+    print("{0:.9f}".format(result))
     print("Time elapsed is {} seconds".format(time.time() - start_time))
